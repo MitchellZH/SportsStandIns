@@ -5,7 +5,6 @@ import WelcomePage from "./components/WelcomePage";
 import HomePage from "./components/HomePage";
 import SignIn from "./components/SignIn";
 import Register from "./components/Register";
-import CreateJoinTeam from "./components/CreateJoinTeam";
 import JoinTeam from "./components/JoinTeam";
 import CreateTeam from "./components/CreateTeam";
 import TeamPage from "./components/TeamPage";
@@ -24,7 +23,6 @@ export default function App() {
         <Stack.Screen name="SignIn" component={SignIn} />
         <Stack.Screen name="Register" component={Register} />
         <Stack.Screen name="Home" component={HomePage} />
-        <Stack.Screen name="CreateOrJoin" component={CreateJoinTeam} />
         <Stack.Screen name="Join" component={JoinTeam} />
         <Stack.Screen name="Create" component={CreateTeam} />
         <Stack.Screen name="Team" component={TeamPage} />
