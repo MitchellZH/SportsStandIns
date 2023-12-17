@@ -3,7 +3,7 @@
 ```
 git clone https://github.com/MitchellZH/SportsStandIns.git
 cd SportsStandIns
-npx install
+npm install
 npx expo start
 ```
 3. Install the Expo Go app on your iOS or Android phone and connect to the same wireless network as your computer
